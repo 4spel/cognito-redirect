@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Callback</title>
+  <script>
+    // Capture the authorization code from the URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const code = urlParams.get('code');
+    console.log('Authorization Code:', code);
+
+    // Here you can send the code to your backend server for token exchange
+  </script>
+</head>
+<body>
+  <h1>Callback Page</h1>
+  <p>Check the console for the authorization code.</p>
+</body>
+</html>
